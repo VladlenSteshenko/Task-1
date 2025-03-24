@@ -1,88 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Login Page</title>
-  <!-- Google Fonts: Poppins -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-  <!-- Link to external CSS file -->
-  <link rel="stylesheet" href="Styles.css" />
-</head>
-<body>
-  <div class="container">
-    <!-- Left Section (hidden on mobile) -->
-    <div class="left-section">
-      <div class="logo-desktop">
-        <img src="./assets/logo.png" alt="SoftInWay Logo" />
-        <span>SoftInWay</span>
-      </div>      
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page | SoftInWay</title>
+    <!-- Google Fonts: Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="Styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left Section (hidden on mobile) -->
+      <div class="left-section">
+        <div class="logo-desktop">
+          <img src="./assets/logo.png" alt="SoftInWay Logo" />
+          <span>SoftInWay</span>
+        </div>
+      </div>
 
-    <!-- Right Section -->
-    <div class="right-section">
-      <!-- Mobile Logo (visible on mobile only) -->
-      <div class="logo-desktop">
-        <img src="./assets/logo.png" alt="SoftInWay Logo" />
-        <span>SoftInWay</span>
-      </div>  
-
-      <!-- Login Wrapper -->
-      <div class="login-wrapper">
-        
-        <!-- Login Header: Title & Subtitle -->
-        <div class="login-header">
-          <h2 class="login-title">Login to your account</h2>
-          <p class="login-subtitle">
-            Enter your email or username below to log in to your account
-          </p>
+      <!-- Right Section -->
+      <div class="right-section">
+        <!-- Mobile Logo (visible on mobile only) -->
+        <div class="logo-desktop">
+          <img src="./assets/logo.png" alt="SoftInWay Logo" />
+          <span>SoftInWay</span>
         </div>
 
-        <!-- Login Form -->
-        <form class="login-form" action="#" method="POST">
-          <!-- Username Block -->
-          <div class="username-block">
-            <label for="username">Username or Email</label>
-            <input 
-              type="text" 
-              id="username" 
-              name="username" 
-              placeholder="m@example.com"
-            />
+        <!-- Login Wrapper -->
+        <div class="login-wrapper">
+          <!-- Login Header: Title & Subtitle -->
+          <div class="login-header">
+            <h2 class="login-title">Login to your account</h2>
+            <p class="login-subtitle">
+              Enter your email or username below to log in to your account
+            </p>
           </div>
 
-          <!-- Password Group -->
-          <div class="password-group">
-            <div class="password-header">
-              <label for="password">Password</label>
-              <div class="forgot-password">
-                <a href="#">Forgot your password?</a>
-              </div>
+          <!-- Login Form -->
+          <form class="login-form" action="#" method="POST">
+            <!-- Username Block -->
+            <div class="username-block">
+              <label for="username">Username or Email</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="m@example.com"
+              />
             </div>
-            <input
-              type="password"
-              id="password"
-              name="password"
-              placeholder="Enter your password"
-            />
-          </div>
 
-          <!-- Remember Me Block -->
-          <div class="remember-me">
-            <input type="checkbox" id="remember" name="remember" />
-            <label for="remember">Remember me</label>
-          </div>
-        </form>
+            <!-- Password Group -->
+            <div class="password-group">
+              <div class="password-header">
+                <label for="password">Password</label>
+                <div class="forgot-password">
+                  <a href="#">Forgot your password?</a>
+                </div>
+              </div>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+              />
+            </div>
 
-        <!-- Login Actions (Login Button & Sign-Up Link) -->
-        <div class="login-actions">
-          <button type="submit">Login</button>
-          <div class="signup-link">
-            Don’t have an account? Sign up
+            <!-- Remember Me Block -->
+            <div class="remember-me">
+              <input type="checkbox" id="remember" name="remember" />
+              <label for="remember">Remember me</label>
+            </div>
+          </form>
+
+          <!-- Login Actions (Login Button & Sign-Up Link) -->
+          <div class="login-actions">
+            <button type="submit">Login</button>
+            <div class="signup-link">Don’t have an account? Sign up</div>
           </div>
         </div>
-      </div><!-- /.login-wrapper -->
-    </div><!-- /.right-section -->
-  </div><!-- /.container -->
-</body>
+        <!-- /.login-wrapper -->
+      </div>
+      <!-- /.right-section -->
+    </div>
+    <!-- /.container -->
+  </body>
 </html>
