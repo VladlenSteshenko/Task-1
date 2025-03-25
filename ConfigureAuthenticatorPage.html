@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Configure Authenticator | SoftInWay</title>
+    <!-- Google Fonts: Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="Styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left Section (hidden on mobile) -->
+      <div class="left-section">
+        <div class="logo-desktop">
+          <img src="./assets/logo.png" alt="SoftInWay Logo" />
+          <span>SoftInWay</span>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div class="right-section">
+        <!-- Mobile Logo (visible on mobile only) -->
+        <div class="logo-desktop">
+          <img src="./assets/logo.png" alt="SoftInWay Logo" />
+          <span>SoftInWay</span>
+        </div>
+
+        <!-- Configure Authenticator Wrapper -->
+        <div class="login-wrapper auth-wrapper">
+          <!-- Header: Title -->
+          <div class="login-header auth-header">
+            <h2 class="login-title">Configure authenticator</h2>
+          </div>
+          <div class="auth-content">
+            <!-- Instructions Above the QR Code -->
+            <div class="auth-instructions">
+              <span class="auth-text">To use an authenticator app go through the following steps:</span>
+              <ol class="auth-text">
+                <li>
+                  Download a two-factor authenticator app like Microsoft Authenticator<br />
+                  for <ins>Android</ins> and <ins>iOS</ins> or Google Authenticator for <ins>Android</ins> and <ins>iOS</ins>.
+                </li>
+                <li>Scan the QR code using the authenticator app.</li>
+                <img src="./assets/QR.png" alt="QR Code" class="QR" />
+                <li>
+                  Once you have scanned the QR code or input the key above, your
+                  two factor<br />
+                  authentication app will provide you with a unique code. Enter
+                  the code in the<br />
+                  confirmation box below.
+                </li>
+              </ol>
+            </div>
+
+            <!-- Verification Code Form -->
+            <form class="login-form reset-actions">
+              <div class="username-block">
+                <label for="verification-code">Verification Code</label>
+                <input
+                  type="text"
+                  id="verification-code"
+                  name="verification-code"
+                  placeholder="Please enter the code"
+                />
+              </div>
+              <button type="submit">Verify</button>
+            </form>
+          </div>
+        </div>
+        <!-- /.login-wrapper -->
+      </div>
+      <!-- /.right-section -->
+    </div>
+    <!-- /.container -->
+  </body>
+</html>
