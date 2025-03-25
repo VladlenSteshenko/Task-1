@@ -4,7 +4,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-ol, ul {
+ol,
+ul {
   margin: revert;
   padding: revert;
 }
@@ -28,7 +29,6 @@ body {
 .left-section {
   width: 50%;
   height: 100%;
-  /* You can keep your original gradient or modify it if you want */
   background: conic-gradient(
     from 180deg at 50% 50%,
     #3366cc 0deg,
@@ -127,14 +127,14 @@ body {
 .login-form {
   display: flex;
   flex-direction: column;
-  width:31.25rem;
-  height:13.9375rem;
+  width: 31.25rem;
+  height: 13.9375rem;
 }
 
 .login-info {
-  width:31.25rem;
+  width: 31.25rem;
   height: 11.75rem;
-  gap:1.75rem;
+  gap: 1.75rem;
 }
 /* USERNAME BLOCK */
 .username-block {
@@ -186,10 +186,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin-top:1.75rem;
+  margin-top: 1.75rem;
 }
 
-/* PASSWORD HEADER (Label & Forgot Link in one row) */
+/* PASSWORD HEADER */
 .password-header {
   width: 31.25rem; /* 500px */
   height: 1.6875rem; /* 27px */
@@ -222,7 +222,7 @@ body {
   display: flex;
   align-items: center;
   gap: 0.625rem; /* 10px */
-  margin-top: 0.875rem;/* 14px */
+  margin-top: 0.875rem; /* 14px */
 }
 
 .remember-me input[type="checkbox"] {
@@ -330,30 +330,27 @@ body {
   margin: 50% auto;
 }
 
-/* NEW: ConfigureAuthenticatorPage STYLES */
+/* ConfigureAuthenticatorPage STYLES */
 
 .auth-wrapper {
-  /* 600px => 600/16 = 37.5rem */
   width: 37.5rem;
-  /* 528px => 528/16 = 33rem */
+
   height: 33rem;
-  /* 28px => 28/16 = 1.75rem */
+
   gap: 1.75rem;
 }
 .auth-header {
-  /* 600px => 37.5rem */
   width: 37.5rem;
-  /* 28px => 1.75rem */
+
   height: 1.75rem;
-  /* 7px => 0.4375rem */
+
   gap: 0.4375rem;
 }
 .auth-content {
-  /* 600px => 37.5rem */
   width: 37.5rem;
   /* 395px => 395/16 ≈ 24.6875rem */
   height: 24.6875rem;
-  /* 14px => 0.875rem */
+
   gap: 0.875rem;
 }
 
@@ -361,16 +358,14 @@ body {
   max-width: 8.75rem;
   max-height: 8.75rem;
   margin-left: -1.25rem;
-  margin-top:0.4375rem;
+  margin-top: 0.4375rem;
 }
 
-/* NEW: Instructions text styling */
 .auth-instructions {
-  /* 600px => 37.5rem */
   width: 37.5rem;
   /* 301px => 301/16 ≈ 18.8125rem */
   height: 18.8125rem;
-  /* 7px => 0.4375rem */
+
   gap: 0.4375rem;
   margin-bottom: 0.875rem;
   text-align: left;
