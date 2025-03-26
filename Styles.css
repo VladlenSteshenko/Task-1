@@ -388,6 +388,11 @@ body {
   letter-spacing: 0;
   color: #00000073;
 }
+.verify-btn {
+  width: 37.5rem;
+  height: 3.0625rem;
+  margin-top: 1.75rem;
+}
 
 /* MANAGE ACCOUNT PAGE */
 
@@ -451,7 +456,7 @@ body {
   justify-content: space-between;
 }
 
-.navigation-buttons-item a {
+.navigation-buttons-item {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 0.875rem;
@@ -461,6 +466,53 @@ body {
   cursor: pointer;
 }
 
+/* reset authenticator page */
+.reset-authenticator-content {
+  width: 31.25rem;
+  height: 18.1875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.reset-authenticator-title {
+  height: 3.5625rem;
+}
+
+.alert-info {
+  width: 31.25rem;
+  height: 8.0625rem;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: #e5f2f8;
+  display: flex;
+  flex-direction: column;
+}
+
+.alert-info-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  letter-spacing: 0;
+  color: #000000;
+}
+
+.alert-info-gen {
+  height: 9.375rem;
+}
+
+.danger-button button {
+  background: #dc3545;
+}
+/* generate 2fa page */
+.generate-2fa-content {
+  height: 23rem;
+}
+
+.generate-2fa-title {
+  height: 7.0625rem;
+}
 /* RESPONSIVE STYLES */
 @media (max-width: 48rem) {
   /* 768px */

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reset Authenticator | SoftInWay</title>
+    <!-- Google Fonts: Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="Styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left Section (hidden on mobile) -->
+      <div class="left-section">
+        <div class="logo-desktop">
+          <img src="./assets/logo.png" alt="SoftInWay Logo" />
+          <span>SoftInWay</span>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div class="right-section">
+        <!-- Mobile Logo (visible on mobile only) -->
+        <div class="logo-desktop">
+          <img src="./assets/logo.png" alt="SoftInWay Logo" />
+          <span>SoftInWay</span>
+        </div>
+
+        <div class="login-wrapper generate-2fa-content">
+          <div class="login-header generate-2fa-title">
+            <h2 class="login-title">
+              Generate two-factor authentication (2FA) recovery codes
+            </h2>
+            <p class="login-subtitle">
+              Get a new set of recovery codes to access your account.
+            </p>
+          </div>
+
+          <div class="alert-info alert-info-gen">
+            <span class="alert-info-text">
+              Put these codes in a safe place.<br />
+              If you lose your device and don’t have the recovery codes you will
+              lose access to your account. Generating new recovery codes does
+              not change the keys used in authenticator apps. If you wish to
+              change the key used in an authenticator app you should
+              <a class="navigation-buttons-item" href="#"
+                >reset your authenticator keys.</a
+              >
+            </span>
+          </div>
+          <div class="login-actions danger-button">
+            <button type="submit">Generate Recovery Codes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

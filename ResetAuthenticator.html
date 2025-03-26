@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Manage Account | SoftInWay</title>
+    <title>Reset Authenticator | SoftInWay</title>
     <!-- Google Fonts: Poppins -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
@@ -30,32 +30,25 @@
           <span>SoftInWay</span>
         </div>
 
-        <div class="login-wrapper manage-account-content">
-          <div class="login-header manage-account-title">
-            <h2 class="login-title manage-title">Manage account</h2>
-            <p class="login-subtitle manage-subtitle">
-              Manage your account security by resetting your authenticator app
-              or generating new recovery codes.
+        <div class="login-wrapper reset-authenticator-content">
+          <div class="login-header reset-authenticator-title">
+            <h2 class="login-title">Reset Authenticator</h2>
+            <p class="login-subtitle">
+              Reset your authentication app to set up a new one
             </p>
           </div>
 
-          <div class="manage-account-info">
-            <div class="manage-2FA">
-              <span class="manage-2FA-label"
-                >Two-factor authentication (2FA)</span
-              >
-              <div class="status">
-                <span>enabled</span>
-              </div>
-            </div>
-            <div class="navigation-buttons">
-              <div>
-                <a class="navigation-buttons-item" href="#">Reset authenticator app</a>
-              </div>
-              <div>
-                <a class="navigation-buttons-item" href="#">Generate new recovery codes</a>
-              </div>
-            </div>
+          <div class="alert-info">
+            <span class="alert-info-text"
+              >If you reset your authenticator key your authenticator app will
+              not work until you reconfigure it.<br />
+              This process disables 2FA until you verify your authenticator app.
+              If you do not complete your authenticator app configuration you
+              may lose access to your account.
+            </span>
+          </div>
+          <div class="login-actions danger-button">
+            <button type="submit">Reset</button>
           </div>
         </div>
       </div>
