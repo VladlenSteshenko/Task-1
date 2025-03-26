@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manage Account | SoftInWay</title>
+    <!-- Google Fonts: Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="Styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left Section (hidden on mobile) -->
+      <div class="left-section">
+        <div class="logo-desktop">
+          <img src="./assets/logo.png" alt="SoftInWay Logo" />
+          <span>SoftInWay</span>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div class="right-section">
+        <!-- Mobile Logo (visible on mobile only) -->
+        <div class="logo-desktop">
+          <img src="./assets/logo.png" alt="SoftInWay Logo" />
+          <span>SoftInWay</span>
+        </div>
+
+        <div class="login-wrapper manage-account-content">
+          <div class="login-header manage-account-title">
+            <h2 class="login-title manage-title">Manage account</h2>
+            <p class="login-subtitle manage-subtitle">
+              Manage your account security by resetting your authenticator app
+              or generating new recovery codes.
+            </p>
+          </div>
+
+          <div class="manage-account-info">
+            <div class="manage-2FA">
+              <span class="manage-2FA-label"
+                >Two-factor authentication (2FA)</span
+              >
+              <div class="status">
+                <span>enabled</span>
+              </div>
+            </div>
+            <div class="navigation-buttons">
+              <div class="navigation-buttons-item">
+                <a href="#">Reset authenticator app</a>
+              </div>
+              <div class="navigation-buttons-item">
+                <a href="#">Generate new recovery codes</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
